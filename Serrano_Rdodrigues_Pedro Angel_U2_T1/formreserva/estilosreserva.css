@@ -1,0 +1,25 @@
+.info{
+    margin-left: 10%;
+    WIDTH: 20%;
+    
+    
+}
+.numeros{
+    margin-left: 10%;
+    width: 5%;
+    display: inline-block;
+}
+.alinea{
+    display: inline-block;
+    width: 30px;
+}
+.radio{
+    margin-left: 60px;
+}
+legend{
+    color: blue;
+}
+.boton{
+    width: 20%;
+    margin-left: 2%;
+}

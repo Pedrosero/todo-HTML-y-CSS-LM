@@ -1,0 +1,31 @@
+table{
+    width: 70%;
+}
+td{
+    HEIGHT: 100px;
+}
+th{
+    HEIGHT:100px;
+}
+.centro{
+    text-align: center;
+    vertical-align: middle;
+}
+.izqarriba{
+    vertical-align: text-top;
+}
+.izqabajo{
+    vertical-align:bottom;
+}
+.derabajo{
+    vertical-align: bottom;
+    text-align: right;
+}
+.derechacentro{
+    vertical-align: auto;
+    text-align: right;
+}
+.abajocentro{
+    vertical-align:bottom;
+    text-align: center;
+}

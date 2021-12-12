@@ -1,0 +1,36 @@
+.menu{
+    text-align: center;
+}
+p .monday{
+    display: block;
+}
+th{
+    vertical-align: top;
+    text-align: left;
+    height: 120px;
+    
+    
+}
+table{
+    width: 25%;
+    height: 300px;
+    background-color:rgb(250, 241, 172);
+    border-color: coral;
+    border-width: 2px;
+    border-style: groove;
+}
+.comida{
+    vertical-align: top;
+}
+td{
+    height: 20px;
+}
+th.lunch{
+    height: 30px;
+}
+th.breakfast{
+    height: 40px;
+}
+th.dinner{
+    height: 40px;
+}

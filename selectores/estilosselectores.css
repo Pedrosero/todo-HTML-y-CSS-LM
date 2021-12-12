@@ -1,0 +1,32 @@
+.headers{
+    background-color: red;
+    color: aliceblue;
+    font-size: 35px;
+}
+.letras{
+    font-size: 50px;
+    
+}
+.gris{
+    background-color: gray;
+}
+.letras2{
+    font-size: 30px;
+}
+.letras3{
+    font-size: 30px;
+    color: red;
+}
+.azul{
+    background-color: blue;
+}
+.letrasfondoazul{
+    font-size: 30px;
+    background-color: blue;
+}
+.amarillo{
+    font-size: 30px;
+    background-color:yellow;
+}
+
+

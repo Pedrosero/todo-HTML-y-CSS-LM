@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <!--Está mal, lo tengo que corregir loco que asco es una tabla y un colspan en la parte de los formularios radio y checbox-->
+<html>
+    <link href="estilosreserva.css"
+    rel="stylesheet" type="text/css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    <body>
+       
+        <h1>Reservation Request</h1>
+        
+        <form>
+            <fieldset>
+                <legend>General Information</legend>
+                <label class="alinea">Arrival date:</label> <input class="info" name='fecha' type="date" tabindex='1'>
+            </br>
+            </br>
+            <label class="alinea">Night:</label> <input class="info" name="noches" type='text' tabindex='1'>
+            </br>
+            </br>
+            <label  class="alinea">Adults:</label> <input class="numeros" name='adultos' type="number" tabindex='1'>
+            </br>
+            </br>
+            <label  class="alinea">Children:</label> <input class="numeros" name='niños' type="number" tabindex='1'>        
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <label>Room type:</label> 
+                <input class="radio" name="estandar" type="radio" tabindex='1'>Standard
+                <input class="radio" name="negocios" type="radio" tabindex="1">Business
+                <input class="radio" name="suite" type="radio" tabindex="1">Suite
+            </br>
+                <input name="Fumador" type="checkbox" tabindex="1">Smoking
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="alinea">Name:</label> <input class="info" name='nombre' type="text" tabindex='1'>
+            </br>
+            </br>
+                <label class="alinea">Email:</label> <input class="info" name='email' type="text" tabindex='1'>
+            </br>
+            </br>
+                <label class="alinea">Phone:</label> <input class="info" name='telefono' type="text" tabindex='1'>
+            </fieldset>
+        </br>
+            <input class="boton" type="submit" value="Submit reservation">
+      
+            <input class="boton" type="reset" value="Clear">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body--> Background-color: Se utiliza para cambiar el fondo
+                             de todo el documento de html */
+body {background-color: tan}
+
+/* Headers-->   Color: Lo utiliza para cambiar el color de las letras del título 
+                
+                font-size: Se utiliza para cambiar el tamaño de la fuente del título*/
+h1 {color:maroon; font-size:20pt}
+
+/* HR (Hard Rule = line)--> Color: Se le pone un color a la línea*/
+hr {color:navy}
+
+/* Paragraphs-->    font-size: Cambia el tamaño de la fuente de nuestro párrafo
+                    
+                    margin-left: Aumenta el margen con respecto al lado izquierdo de la pantalla
+                    
+                    p.verse--> es una clase que se utiliza para diferenciar los párrafos y cambiar
+                    el estilo de el párrafo al que pertenece la clase
+                    
+                    Color: Cambia el color de letra del párrafo*/
+p {font-size:12pt; margin-left: 15px}
+p.verse {color:maroon; margin-left: 60px}
+
+/* Divs */
+
+/* Links--> a:link color:--> cambia el color de como se ve el link 
+            a:visited color:--> cambia el color del link una vez se le de clic
+            a:hover color:--> cambia el color de como se ve el link cuando se le pone el cursor encima
+            a:active color:--> cambia el color del link cuando se le da clic (este cambia durante poco tiempo mientras carga la otra página)*/
+a:link     {color:green}
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
+
+

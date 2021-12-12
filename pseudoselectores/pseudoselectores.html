@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <!--Está mal, lo tengo que corregir loco que asco es una tabla y un colspan en la parte de los formularios radio y checbox-->
+<html>
+    <link href="estilosselectores.css"
+    rel="stylesheet" type="text/css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    <body>
+        <table border="1">
+            <caption><a href="#">HORARIO DE CLASE CURSO 2018-20</a></caption>
+            <tr>
+                <th class="letra">Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th class="zoom">Viernes</th>
+                
+            </tr>
+            <tr>
+                <td class="horario">8:00</td>
+                <td rowspan="2" class="asignaturas">Matemáticas</td>
+                <td class="asignaturas2">Lengua</td>
+                <td class="asignaturas3">Inglés</td>
+                <td class="zoom" colspan="2">Ciencias</td>
+               
+            </tr>
+            <tr>
+                <td class="horario">9:00</td>
+                
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td class="zoom">Lengua</td>
+                
+            </tr>
+            <tr>
+                <td class="horario">10:00</td>
+                <td class="recreo" colspan="5"><b>RECREO</b></td>
+               
+               
+            </tr>
+            <tr>
+                <td class="horario">10:30</td>
+                <td >Inglés</td>
+                <td rowspan="2">Ciencias</td>
+                <td >Matemáticas</td>
+                <td>Lengua</td>
+                <td class="zoom">Historia</td>
+            </tr>
+            <tr>
+                <td class="horario">11:30</td>
+                <td class="rosa">Historia</td>
+               
+                <td class="rosa">Ciencias</td>
+                <td>Matemáticas</td>
+                <td class="zoom">Inglés</td>
+                
+            </tr>
+        </table>
+        </br>
+        <form>
+            <label for="email">Email</label>
+            <input  class="caja" type="text" id="email" name="elemail" required placeholder="Inserte email del destinatario">
+        </br>
+        </br>
+            <input class="boton" type="submit" value="Enviar horario">
+        </form>
+    </body>
+</html>

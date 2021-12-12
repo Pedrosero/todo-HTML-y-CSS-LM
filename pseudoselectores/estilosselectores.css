@@ -1,0 +1,55 @@
+table{
+    width: 50%;
+}
+th::first-letter{
+    font-size: 35px;
+}
+.horario{
+    width: 20%;
+    background-color: green;
+}
+.asignaturas{
+    width: 10%;
+}
+.asignaturas2{
+    width: 15%;
+}
+.asignaturas3{
+    width: 25%;
+}
+.recreo{
+    background-color: yellow;
+    text-align: center;
+}
+.zoom{
+    width: 15%;
+}
+.zoom:hover{
+    font-size: 30px;
+}
+a{
+    color: green;
+    text-align: center;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}
+.caja{
+    border-color: red;
+    border-width: thin;
+    height: 30px;
+    width: 200px;
+    
+}
+.boton{
+    border-radius: 5px;
+    width: 130px;
+}
+label::after {
+    content: "*";
+    color: red;
+    margin-left:2px
+  }
+
+
